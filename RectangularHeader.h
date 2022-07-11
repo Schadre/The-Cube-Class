@@ -25,6 +25,11 @@ class RectangularCube { //Defined the class Rectangular Cube
             length = newLength;
         }
 
+        //Set a new width
+        void setWidth(double newWidth) {
+            width = (newWidth >= 0) ? newWidth : 8;
+        };
+
         // Return Volume of this Rectangular Cube
         double getVolume() {
             return length * width * height;

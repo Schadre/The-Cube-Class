@@ -19,5 +19,11 @@ int main() {
         << rectangularcube2.getVolume() << endl;
     cout << "The Surface Area is: "
         << rectangularcube2.getSurfaceArea() << endl;
+
+    //Modify Rectangle cubde
+    rectangularcube2.setWidth(0);
+    cout << "The Surface Area is: "
+        << rectangularcube2.getSurfaceArea() << endl;
+
     return 0;
 }
