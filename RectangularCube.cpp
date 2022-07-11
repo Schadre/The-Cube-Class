@@ -36,7 +36,7 @@ class RectangularCube { //Defined the class Rectangular Cube
         };
     
         //get and set functions for the two private sides and color data field
-        double getColor();
+        string getColor();
         double getWidth();
         double getHeight();
         void setColor();
